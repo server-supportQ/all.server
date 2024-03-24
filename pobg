@@ -125,7 +125,7 @@ android.graphics.drawable.GradientDrawable SketchUi = new android.graphics.drawa
 int d = (int) getApplicationContext().getResources().getDisplayMetrics().density;
 SketchUi.setColor(0xFF194DF7);
 SketchUi.setCornerRadius(d*22);
-android.graphics.drawable.RippleDrawable SketchUiRD = new android.graphics.drawable.RippleDrawable(new android.content.res.ColorStateList(new int[][]{new int[]{}}, new int[]{0xFFFFFFFF}), SketchUi, null);
+android.graphics.drawable.RippleDrawable SketchUiRD = new android.graphics.drawable.RippleDrawable(new android.content.res.ColorStateList(new int[][]{new int[]{}}, new int[]{0xFFFFFFFF}), SketchUi, null);تت
 ooo.setBackground(SketchUiRD);
 ooo.setClickable(true);
 }"
